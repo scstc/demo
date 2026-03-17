@@ -18,6 +18,18 @@ public class DemoApplication {
         if (str != null) {
             int length = str.length();
         }
+
+
+        //在帮我洗个异
+        int bb = 0;
+        int d = 1;
+        if (bb != 0) {
+            int e = a / bb;
+            System.out.println(e);
+        } else {
+            System.out.println("除数不能为0");
+        }
+
         SpringApplication.run(DemoApplication.class, args);
     }
 
