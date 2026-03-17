@@ -12,6 +12,12 @@ public class DemoApplication {
         int b = 1;
         int c = a / b;
         System.out.println(c);
+
+        //帮我写个空指针的异常
+        String str = null;
+        if (str != null) {
+            int length = str.length();
+        }
         SpringApplication.run(DemoApplication.class, args);
     }
 
