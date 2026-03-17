@@ -10,16 +10,9 @@ public class DemoApplication {
         // 帮我写个除以0的异常
         int a = 1;
         int b = 0;
-        if (b != 0) {
-            int c = a / b;
-            System.out.println(c);
-        } else {
-            System.out.println("除数不能为0");
-        }
+        int c = a / b;
+        System.out.println(c);
 
-        //帮我写个空指针的异常
-        String str = null;
-        int length = str.length();
         SpringApplication.run(DemoApplication.class, args);
     }
 

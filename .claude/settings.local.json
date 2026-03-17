@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "Bash(gh issue:*)",
+      "Bash(cd D:/code/demo && ./mvnw compile -q 2>&1 | tail -20)",
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ]
   }
 }
